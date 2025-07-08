@@ -25,3 +25,7 @@ TAG-ID;Datum;Uhrzeit;Mahlzeit;Lebensmittel / Beschreibung;Menge (g);kcal;Protein
 20250708;08.07.2025;13:40;Snack;Leichtmozzarella (GUT&GÜNSTIG) 16% Fett i. Tr.;125;150;22.5;0.5;0.5;7.5
 20250708;08.07.2025;13:40;Snack;Cherrytomaten (geschätzt 7 Stück);70;14;0.7;2.7;2.7;0.2
 20250707;2025-07-07;15:40;Snack;Clear Whey Pfirsich-Eistee (Sportness, 50 g);50;178;41.5;4.5;0.3;0.4
+TAG-ID;Datum;Uhrzeit;Mahlzeit;Lebensmittel / Beschreibung;Menge (g);kcal;Protein (g);KH (g);Zucker (g);Fett (g)
+20250708;2025-07-07;18:35;Abendessen;Döner Kebab Kalb, komplett (Salat, Tomate, Zwiebel, Rotkohl, 3 Soßen);450;850;35;60;8;45
+TAG-ID;Datum;Uhrzeit;Mahlzeit;Lebensmittel / Beschreibung;Menge (g);kcal;Protein (g);KH (g);Zucker (g);Fett (g)
+20250708;2025-07-07;20:35;Snack;REWE High Protein Eis Vanilla Salted Caramel;157;218;15.7;29.5;22.9;4.6
