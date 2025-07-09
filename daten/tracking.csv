@@ -32,3 +32,5 @@ TAG-ID;Datum;Uhrzeit;Mahlzeit;Lebensmittel / Beschreibung;Menge (g);kcal;Protein
 TAG-ID;Datum;Uhrzeit;Mahlzeit;Lebensmittel / Beschreibung;Menge (g);kcal;Protein (g);KH (g);Zucker (g);Fett (g)
 20250708;2025-07-08;09:00;Frühstück;Skyr 0,2% (GUT & GÜNSTIG);250;135;25;9;9;0.5
 20250708;2025-07-08;09:00;Frühstück;Mammut Whey Protein (Eiskaffee);30;111;22.5;2.4;2.1;1.5
+TAG-ID;Datum;Uhrzeit;Mahlzeit;Lebensmittel / Beschreibung;Menge (g);kcal;Protein (g);KH (g);Zucker (g);Fett (g)
+20250708;2025-07-08;13:12;Shake;Bodylab Clear Whey Isolate Pink Grapefruit;36;127;28.8;1.5;1.1;0.5
