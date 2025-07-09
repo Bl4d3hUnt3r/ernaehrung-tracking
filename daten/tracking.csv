@@ -32,3 +32,8 @@ TAG-ID;Datum;Uhrzeit;Mahlzeit;Lebensmittel / Beschreibung;Menge (g);kcal;Protein
 20250708;2025-07-09;09:00;Frühstück;Mammut Whey Protein (Eiskaffee);30;111;22.5;2.4;2.1;1.5
 20250708;2025-07-09;13:12;Shake;Bodylab Clear Whey Isolate Pink Grapefruit;36;127;28.8;1.5;1.1;0.5
 20250708;2025-07-09;16:54;Snack;Pro Dome Bar Cookie Cream;60;232;20;21;2;7
+TAG-ID;Datum;Uhrzeit;Mahlzeit;Lebensmittel / Beschreibung;Menge (g);kcal;Protein (g);KH (g);Zucker (g);Fett (g)
+20250709;09.07.2025;18:00;Abendbrot;Wolf Nürnberger Würste;130;399;16.9;0.65;0;36.4
+20250709;09.07.2025;18:00;Abendbrot;G&G Kartoffelpüree;150;117;2.55;22.95;0.75;0.45
+20250709;09.07.2025;18:00;Abendbrot;Knorr Soße zu Braten;85;31.45;0.85;5.02;0.43;0.68
+20250709;09.07.2025;18:00;Abendbrot;Hainich Schlachtenkraut;110;39.6;1.43;5.83;3.3;0.55
