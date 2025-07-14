@@ -1,24 +1,55 @@
-# Ernährungstracking
+# 📊 Ernährungstracking
 
 Hier werden tägliche Trackingdaten gepflegt, z. B. als `tracking.csv` oder `tracking.xlsx`.
 
 - Zeitformat: ISO (Datum + Uhrzeit), z. B. `2025-07-03 08:15`
 - Eine Zeile = eine Mahlzeit oder Snack
-- Tagesgrenze: 18:00 Uhr
+- Tagesgrenze: **18:00 Uhr** → der neue Tag startet immer um 18:00 Uhr
+- Grundlage ist das Template: [`tracking_template.csv`](./daten/tracking_template.csv)
 
-**Raw-Link zur aktuellen Datei** (zum Einlesen durch GPT):  
+**Raw-Link zur aktuellen Datei (für GPT):**  
 https://raw.githubusercontent.com/Bl4d3hUnt3r/ernaehrung-tracking/refs/heads/main/daten/tracking.csv
 
-### Nutzung mit ChatGPT – Kontext & Logik
+---
 
-Dieses Tracking folgt einem **Tagesstart um 18:00 Uhr**, d. h. ein Ernährungstag reicht von 18:00 Uhr bis 17:59 Uhr des Folgetags. Die Spalte `id` dient zur eindeutigen Tageszuordnung (z. B. `2025-07-03` für den Tag ab 02.07., 18:00 Uhr).
+## ✅ Logik & Regeln für ChatGPT
 
-ChatGPT übernimmt das strukturierte Erfassen der Mahlzeiten nach folgenden Prinzipien:
+Dieses Tracking folgt einem **Tagesstart um 18:00 Uhr**  
+(z. B. `20250703` für alle Einträge ab 02.07.2025, 18:00 Uhr bis 03.07.2025, 17:59 Uhr).
 
-- **Keine Mittelwerte komplexer Gerichte:** Mahlzeiten wie Salate oder Aufläufe werden **immer anhand der realen Zutaten** und Mengen berechnet, keine Näherung.
-- **Zeitzuordnung:** Mahlzeiten werden grundsätzlich der **Uhrzeit der Eingabe** zugeordnet, es sei denn, du gibst eine andere Zeit explizit an.
-- **Makro-Priorität:** Fokus auf **Proteinreichweite**, unter Einhaltung deines Tagesziels (z. B. 2100 kcal / 180–190 g Protein).
-- **FDDB-basiert:** Alle Nährwertdaten werden primär mit **FDDB.de** abgeglichen, um maximale Genauigkeit zu gewährleisten.
-- **Tracking-Ausgabe:** Am Ende jedes Tages generiert ChatGPT eine vollständige **CSV-kompatible Zeile pro Mahlzeit** sowie eine **Tagesbilanz**, welche direkt in die Datei eingefügt oder per Copy & Paste übernommen werden kann.
-- **Verifizierte Historie:** Früher protokollierte Daten werden einzeln mit dir verifiziert und konsistent in die Datei übernommen.
-- **Template-Validierung:** Die Struktur der Datei basiert dauerhaft auf [`tracking_template.csv`](./daten/tracking_template.csv) für volle Kompatibilität.
+ChatGPT übernimmt das strukturierte Erfassen der Mahlzeiten nach diesen **fest definierten Prinzipien**:
+
+- **Keine Näherungen oder Durchschnittswerte**  
+  Alle Nährwertdaten werden **immer live recherchiert** – bevorzugt über **FDDB.de**, OpenFoodFacts oder offizielle Herstellerangaben.  
+  Schätzungen oder pauschale Daten sind ausdrücklich **nicht zulässig**.
+
+- **Rezept-basierte Mahlzeiten**  
+  Komplexe Gerichte (z. B. Aufläufe, Salate) werden **immer anhand der realen Zutaten** (inkl. Marken & exakten Mengen) einzeln kalkuliert.
+
+- **Zeitzuordnung**  
+  Wenn keine Uhrzeit angegeben wird, gilt die Uhrzeit der Eingabe.  
+  Eine andere Uhrzeit kann jederzeit explizit vorgegeben werden.
+
+- **Makronährstoff-Priorität**  
+  Fokus auf Proteinreichweite (Ziel: ~180–190 g Protein pro Tag bei ca. 2100 kcal).
+
+- **CSV-Format (verbindlich)**  
+  Jede Mahlzeit wird als einzelne Zeile exportiert, exakt nach diesem festen Aufbau:
+TAG-ID;Datum;Uhrzeit;Mahlzeit;Lebensmittel / Beschreibung;Menge (g);kcal;Protein (g);KH (g);Zucker (g);Fett (g)
+
+- **Verifizierte Historie**  
+Bereits dokumentierte Tage und Mahlzeiten werden mit dir abgestimmt, um volle Nachvollziehbarkeit sicherzustellen.
+
+- **Commit-Workflow**  
+Am Tagesende liefert ChatGPT alle neuen Zeilen gebündelt, sodass sie als Block in `tracking.csv` übernommen werden können.
+
+---
+
+## 📌 Hinweis
+
+- Die Tagesgrenze um 18:00 Uhr bestimmt die `TAG-ID`.
+- Transparenz & Nachvollziehbarkeit sind Pflicht: Alle Nährwerte werden mit Quellen dokumentiert.
+- Änderungen bei Marken, Mengen oder Rezepturen werden immer explizit festgehalten.
+- Keine Automatisierung ohne finale Freigabe: Du entscheidest immer, was in die Datei übernommen wird.
+
+---
