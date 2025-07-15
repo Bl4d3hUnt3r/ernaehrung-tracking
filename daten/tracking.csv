@@ -67,3 +67,8 @@ TAG-ID;Datum;Uhrzeit;Mahlzeit;Lebensmittel / Beschreibung;Menge (g);kcal;Protein
 20250713;2025-07-13;19:30;Abendessen;3× Sloppy Joe Burger (Pattie 80g, Brioche Bun 62.5g, 2× Käse 25g, 20g BBQ Sauce, 30g Salat);918;1584;83.7;121.5;20.1;84.3
 20250713;2025-07-14;09:00;Frühstück;Magerquark 500 g;500;408;60;24;24;1
 20250713;2025-07-14;16:30;Shake;Clear Whey Isolate Pink Grapefruit 36 g;36;121;28.2;2.3;0;0.1
+
+
+TAG-ID;Datum;Uhrzeit;Mahlzeit;Lebensmittel / Beschreibung;Menge (g);kcal;Protein (g);KH (g);Zucker (g);Fett (g)
+20250714;2025-07-14;18:00;Abendessen;1,5 Kaiserbrötchen, 4 Hofmaier/Wolf Wiener Würstchen, 30 g Almette Kräuter leicht, 50 g Mozzarella light;370;896;46.8;46.3;4.6;57.5
+20250714;2025-07-15;09:00;Frühstück;Skyr 500 g, Mammut Whey Brownie 30 g, G&G weniger süß Schoko-Müsli 60 g;590;669;81.4;59.5;25.0;8.4
