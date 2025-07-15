@@ -69,6 +69,12 @@ TAG-ID;Datum;Uhrzeit;Mahlzeit;Lebensmittel / Beschreibung;Menge (g);kcal;Protein
 20250713;2025-07-14;16:30;Shake;Clear Whey Isolate Pink Grapefruit 36 g;36;121;28.2;2.3;0;0.1
 
 
-TAG-ID;Datum;Uhrzeit;Mahlzeit;Lebensmittel / Beschreibung;Menge (g);kcal;Protein (g);KH (g);Zucker (g);Fett (g)
+
 20250714;2025-07-14;18:00;Abendessen;1,5 Kaiserbrötchen, 4 Hofmaier/Wolf Wiener Würstchen, 30 g Almette Kräuter leicht, 50 g Mozzarella light;370;896;46.8;46.3;4.6;57.5
 20250714;2025-07-15;09:00;Frühstück;Skyr 500 g, Mammut Whey Brownie 30 g, G&G weniger süß Schoko-Müsli 60 g;590;669;81.4;59.5;25.0;8.4
+
+20250715;2025-07-15;18:00;Abendessen;4 Roggenmischbrot;220;488;15.5;94.7;5.0;—
+20250715;2025-07-15;18:00;Abendessen;Almette Kräuter leicht (50 g auf 3 Brote);50;103;5.3;2.9;1.5;6.0
+20250715;2025-07-15;18:00;Abendessen;Ahle Wurst (21 Scheiben ≈61 g);61;209;17.1;0.6;0;15.3
+20250715;2025-07-15;18:00;Abendessen;2 Hofmaier/Wolf Wiener;100;279;13.0;0.5;0;25.0
+20250715;2025-07-15;18:00;Abendessen;Dreimaster Heringsfilet;60;85;7.1;3.2;0;4.7
